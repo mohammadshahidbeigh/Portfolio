@@ -9,6 +9,41 @@ A bold, modern portfolio website built with NeoBrutalism design principles.
 - **Smooth Animations**: Scroll effects and hover interactions
 - **Clean Code**: Semantic HTML, modular CSS, vanilla JavaScript
 
+## 💡 Why Vanilla JavaScript?
+
+This portfolio intentionally uses plain HTML, CSS, and JavaScript instead of modern frameworks like React or TypeScript. Here's why:
+
+### Performance First
+- **Zero build time**: No compilation, bundling, or transpilation needed
+- **No framework overhead**: The entire site loads in milliseconds with no runtime dependencies
+- **Smaller bundle size**: ~30KB total vs 100KB+ for even minimal React apps
+- **Instant page loads**: No hydration delays or JavaScript parsing bottlenecks
+
+### Simplicity & Maintainability
+- **Easy to understand**: Anyone can read and modify the code without learning a framework
+- **No build tooling**: No webpack, Vite, or complex build configurations to maintain
+- **Future-proof**: Will work in browsers 10 years from now without dependency updates
+- **Lower barrier to entry**: Easy for others to fork and customize
+
+### Right Tool for the Job
+- **Static content**: A portfolio is mostly static text and images - no complex state management needed
+- **Minimal interactivity**: Smooth scrolling and hover effects don't require React's virtual DOM
+- **SEO-friendly**: Pure HTML with no client-side rendering concerns
+- **No over-engineering**: Using React for a portfolio would be like using a sledgehammer to crack a nut
+
+### Learning & Teaching
+- **Back to basics**: Demonstrates mastery of web fundamentals
+- **Teaching tool**: Great reference for learning core web technologies
+- **No magic**: Every line of code is explicit and visible
+
+**When you should use frameworks:**
+- Complex state management across many components
+- Real-time data synchronization
+- Large team collaboration with TypeScript type safety
+- Apps with hundreds of interactive components
+
+For a personal portfolio, vanilla JavaScript delivers the best user experience with the lowest complexity.
+
 ## 📁 Project Structure
 
 ```
