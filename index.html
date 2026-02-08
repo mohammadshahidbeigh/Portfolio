@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
     <title>Harnoor Singh - Software Engineer | AI/ML & Mobile Developer</title>
     <meta name="description" content="Software Engineer at Microsoft specializing in AI/ML, Mobile Development, and Security Analytics. Creator of Singh in USA YouTube channel with 1M+ subscribers.">
     <meta name="keywords" content="Harnoor Singh, Software Engineer, Microsoft, AI, ML, Android, iOS, Developer, Singh in USA">
@@ -10,22 +11,62 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://hsinghplay.usa.dev/">
+    <meta property="og:url" content="https://singhinusa.dev/">
     <meta property="og:title" content="Harnoor Singh - Software Engineer">
     <meta property="og:description" content="Software Engineer at Microsoft specializing in AI/ML, Mobile Development, and Security Analytics.">
-    <meta property="og:image" content="https://hsinghplay.usa.dev/profile.jpg">
+    <meta property="og:image" content="https://singhinusa.dev/profile.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://hsinghplay.usa.dev/">
+    <meta property="twitter:url" content="https://singhinusa.dev/">
     <meta property="twitter:title" content="Harnoor Singh - Software Engineer">
     <meta property="twitter:description" content="Software Engineer at Microsoft specializing in AI/ML, Mobile Development, and Security Analytics.">
-    <meta property="twitter:image" content="https://hsinghplay.usa.dev/profile.jpg">
+    <meta property="twitter:image" content="https://singhinusa.dev/profile.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://singhinusa.dev/">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="profile.jpg" as="image">
 
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://img.youtube.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Harnoor Singh",
+      "url": "https://singhinusa.dev",
+      "image": "https://singhinusa.dev/profile.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/in/iharnoor",
+        "https://github.com/iharnoor",
+        "https://www.youtube.com/@SinghinUSA"
+      ],
+      "jobTitle": "Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Microsoft"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Georgia State University"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "San Francisco",
+        "addressRegion": "CA"
+      },
+      "email": "harnoor@singhinusa.com",
+      "description": "Software Engineer specializing in AI/ML, Mobile Development, and Security Analytics. Creator of Singh in USA YouTube channel with 1M+ subscribers."
+    }
+    </script>
 </head>
 <body>
     <!-- Hero Section -->
@@ -47,7 +88,7 @@
                         <div class="decorative-icon icon-2">🚀</div>
                         <div class="decorative-icon icon-3">⚡</div>
                         <div class="profile-frame">
-                            <img src="profile.jpg" alt="Harnoor Singh" class="profile-photo">
+                            <img src="profile.jpg" alt="Harnoor Singh" class="profile-photo" width="300" height="400" fetchpriority="high">
                         </div>
                         <div class="status-badge">✨ Open to opportunities</div>
                         <div class="location-badge">📍 San Francisco</div>
@@ -354,7 +395,7 @@
             <div class="videos-grid">
                 <a href="https://www.youtube.com/watch?v=smLqIAw0Aj8" target="_blank" class="video-card">
                     <div class="video-thumbnail">
-                        <img src="https://img.youtube.com/vi/smLqIAw0Aj8/maxresdefault.jpg" alt="Claude Code Tutorial">
+                        <img src="https://img.youtube.com/vi/smLqIAw0Aj8/maxresdefault.jpg" alt="Claude Code Tutorial" loading="lazy" width="1280" height="720">
                         <div class="play-button">▶</div>
                     </div>
                     <div class="video-info">
@@ -366,7 +407,7 @@
 
                 <a href="https://www.youtube.com/watch?v=6pVnTERh6aQ" target="_blank" class="video-card">
                     <div class="video-thumbnail">
-                        <img src="https://img.youtube.com/vi/6pVnTERh6aQ/maxresdefault.jpg" alt="Claude Code Deep Dive">
+                        <img src="https://img.youtube.com/vi/6pVnTERh6aQ/maxresdefault.jpg" alt="Claude Code Deep Dive" loading="lazy" width="1280" height="720">
                         <div class="play-button">▶</div>
                     </div>
                     <div class="video-info">
@@ -378,7 +419,7 @@
 
                 <a href="https://www.youtube.com/watch?v=07ssgSmhr-k" target="_blank" class="video-card">
                     <div class="video-thumbnail">
-                        <img src="https://img.youtube.com/vi/07ssgSmhr-k/maxresdefault.jpg" alt="OpenAI & AI Innovation">
+                        <img src="https://img.youtube.com/vi/07ssgSmhr-k/maxresdefault.jpg" alt="OpenAI & AI Innovation" loading="lazy" width="1280" height="720">
                         <div class="play-button">▶</div>
                     </div>
                     <div class="video-info">
