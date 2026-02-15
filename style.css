@@ -1341,3 +1341,47 @@ h2 {
         padding: 0.3rem 0.7rem;
     }
 }
+
+/* ============================
+   ADDITIONAL RESPONSIVE OVERRIDES
+   (make profile, bio and hero more fluid)
+   ============================ */
+
+.profile-photo {
+    width: min(300px, 40vw);
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.bio {
+    max-width: min(600px, 100%);
+    padding: 1.25rem;
+}
+
+.hero {
+    padding: clamp(2rem, 6vw, 6rem) 0;
+}
+
+/* Keep badges readable on small screens */
+@media (max-width: 768px) {
+    .status-badge,
+    .location-badge {
+        white-space: normal;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
