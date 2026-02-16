@@ -1038,7 +1038,33 @@ h2 {
 
 .contact-card p {
     font-size: 1.1rem;
-    font-family: 'Space Mono', monospace;
+}
+
+.contact-graphs {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.contact-graphs img {
+    width: 100%;
+    max-width: 800px;
+    border: var(--border);
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s;
+}
+
+.contact-graphs img:hover {
+    box-shadow: var(--shadow-hover);
+}
+
+.contact-note {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    color: #666;
+}    font-family: 'Space Mono', monospace;
 }
 
 .card-linkedin {
