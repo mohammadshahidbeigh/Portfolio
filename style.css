@@ -623,6 +623,48 @@ h2 {
 }
 
 /* ============================
+   RESUME SECTION
+   ============================ */
+
+.resume {
+    padding: 6rem 0;
+    background: var(--color-bg);
+}
+
+.resume-actions {
+    margin-bottom: 2rem;
+}
+
+.resume-content {
+    background: white;
+    border: var(--border);
+    box-shadow: var(--shadow);
+    padding: 3rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+/* responsiveness for resume */
+@media (max-width: 768px) {
+    .resume-content {
+        padding: 2rem;
+    }
+    .resume-section h3 {
+        font-size: 1.5rem;
+    }
+    .resume-section ul li {
+        font-size: 1rem;
+    }
+}
+
+/* ============================
    SKILLS SECTION
    ============================ */
 

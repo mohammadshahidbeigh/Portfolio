@@ -95,6 +95,7 @@
                     <div class="cta-buttons">
                         <a href="#projects" class="btn btn-primary">View Projects</a>
                         <a href="#experience" class="btn btn-secondary">View Experience</a>
+                        <!-- <a href="#resume" class="btn btn-primary">View Resume</a> -->
                     </div>
                 </div>
                 <div class="hero-image">
@@ -346,6 +347,104 @@
                         Unsupervised Learning, NumPy, Matplotlib</li>
 
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">RESUME</h2>
+            <div class="resume-actions">
+                <!-- link to downloadable HTML resume -->
+                <a href="resume.html" download class="btn btn-primary">Download Resume</a>
+                <!-- optionally a PDF link if you add one later -->
+                <!-- <a href="resume.pdf" class="btn btn-secondary" target="_blank">View PDF</a> -->
+            </div>
+            <div class="resume-content">
+                <div class="resume-section">
+                    <h3>Mohammad Shahid Beigh</h3>
+                    <p>Srinagar, Jammu and Kashmir</p>
+                    <p>
+                        <a href="mailto:mohammadshahidbeigh@gmail.com">mohammadshahidbeigh@gmail.com</a> —
+                        <a href="https://linkedin.com/in/mohammad-shahid-beigh" target="_blank">linkedin.com/in/mohammad-shahid-beigh</a><br>
+                        <a href="https://github.com/mohammadshahidbeigh" target="_blank">github.com/mohammadshahidbeigh</a> —
+                        <a href="https://upwork.com/freelancers/01667608f00cd4224b" target="_blank">upwork.com/freelancers/01667608f00cd4224b</a>
+                    </p>
+                </div>
+                <hr>
+                <div class="resume-section">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li><strong>Frontend:</strong> JavaScript, TypeScript, React, Redux Toolkit, React Query, Next.js, Tailwind CSS, Shadcn</li>
+                        <li><strong>Backend:</strong> Node.js, Express.js, REST APIs, Golang, JWT, OAuth 2.0</li>
+                        <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Redis, Firebase, Supabase</li>
+                        <li><strong>DevOps/Cloud:</strong> Git, Linux, CI/CD, Jenkins, Docker, AWS (EC2, S3), GCP, Vercel</li>
+                        <li><strong>GenAI:</strong> Python, LangChain, LlamaIndex, Vector Databases, RAG, LLM APIs</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="resume-section">
+                    <h3>Experience</h3>
+                    <h4>Fullstack Engineer · Remote</h4>
+                    <p><em>Weya.ai | AI Workflow Automation for BFSI</em> (Apr 2025 – Aug 2025)</p>
+                    <ul>
+                        <li>Engineered a multi-prompt calling agent builder with a node-based visual editor utilizing React Flow, handling conditional conversational flows, branching logic, multilingual support, and real-time state synchronization.</li>
+                        <li>Designed and implemented a visual workflow orchestration system, enabling users to design, edit, and manage multi-agent workflows (Phone, WhatsApp, Email) via drag-and-drop UI, 3rd-party tool integration and cross-agent coordination.</li>
+                        <li>Built real-time analytics dashboards with D3.js visualizing call volume, success rates, and latency through interactive filtering, and time-series aggregation for live agent performance monitoring.</li>
+                        <li>Optimized Next.js performance using React Query caching, route-based code splitting, React.lazy() with Suspense, and ISR, reducing Time to Interactive (TTI) by 40%.</li>
+                        <li>Architected multi-factor authentication with OAuth 2.0 (@react-oauth/google), TOTP verification, JWT access/refresh token rotation with HttpOnly cookies, and role-based access control (RBAC) middleware.</li>
+                        <li>Resolved Next.js crashes caused by client-side pagination when processing 100k+ agent call records by implementing server-side pagination using MongoDB aggregation pipelines, reducing client-side memory footprint by 75% and enabling stable performance at scale.</li>
+                        <li>Automated a multilingual generation voice pipeline using Python and ElevenLabs API for TTS (text-to-speech) across agents, integrated AWS S3 with SSE-S3 encryption, and built Node.js APIs for pre-signed URL generation enabling secure frontend audio streaming.</li>
+                        <li>Played a key role in developing distributed microservices in Go, using Azure Queue Service for message brokering and Redis for state management, implementing a weighted round-robin scheduling algorithm with priority queues for real-time multi-agent calls.</li>
+                    </ul>
+                    <h4>Frontend Engineer · Upwork</h4>
+                    <p><em>HeyMilo.ai | AI Recruiter for High-Volume Hiring Teams</em> (Dec 2024 – Jan 2025)</p>
+                    <ul>
+                        <li>Integrated Daily.co (WebRTC) and Vapi SDK into a Next.js application to enable real-time AI-powered video interviewing, reducing connection setup latency by 60%.</li>
+                        <li>Built a synchronisation layer using Vapi’s iframe API to coordinate AI assistant state with Daily.co video rooms, achieving sub-500ms bidirectional event propagation.</li>
+                        <li>Leveraged TypeScript for strict type safety and maintainable architecture, reducing runtime errors and improving code reliability across the video workflow.</li>
+                        <li>Designed and implemented responsive, accessible UI components using Shadcn and Tailwind CSS, ensuring consistent cross-device user experience.</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="resume-section">
+                    <h3>Education</h3>
+                    <p><strong>Model Institute Of Engineering and Technology</strong> — Bachelor of Engineering, Electronics and Communications<br>
+                    Jammu, J&K (2020 – 2024)</p>
+                </div>
+                <hr>
+                <div class="resume-section">
+                    <h3>Projects</h3>
+                    <ul>
+                        <li><strong>TalkRoom</strong> | React, Redux Toolkit, Material UI, Node.js, Redis, Prisma, PostgreSQL, Socket.io, WebRTC, Docker | GitHub | Live
+                            <ul>
+                                <li>Built real-time chat application with Socket.IO for messaging, WebRTC for P2P audio/video calls, and server-side file validation.</li>
+                                <li>Secured chat history and sessions using encrypted PostgreSQL and Redis.</li>
+                                <li>Developed TypeScript frontend with Material UI, implementing JWT authentication, CSRF protection, XSS sanitization, and rate limiting.</li>
+                            </ul>
+                        </li>
+                        <li><strong>MindVault</strong> | React, TypeScript, Material UI, GraphQL, MongoDB, Apollo Server Express, Docker, AWS (EC2) | GitHub | Live
+                            <ul>
+                                <li>Architected and built full-stack academic resource management platform with React, TypeScript, GraphQL API, and MongoDB for hierarchical document storage.</li>
+                                <li>Implemented full-text search, tag-based filtering, GraphQL depth limiting, and deployed on AWS EC2 with Docker and CI/CD.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Campus360</strong> | React, TypeScript, Tailwind CSS, OpenAI API, Vector Embeddings, LangChain, Supabase, Firebase | GitHub | Live
+                            <ul>
+                                <li>Engineered an advanced GenAI chatbot for MIET Institute using LangChain.js, OpenAI API and embeddings stored in Supabase vector database for RAG-based retrieval (90% query success rate).</li>
+                                <li>Designed a responsive interface with React, TypeScript, and Tailwind CSS, integrating Firebase for document storage and reducing campus queries by 50% through 24/7 automated access.</li>
+                                <li>Research Paper: AI-Based Chatbot for Educational Institutes (Over 1500+ reads).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Agentic AI</strong> | OpenAI, Phidata, LlamaIndex, Claude, CrewAI, LangGraph, Google Gemini, Groq API | GitHub
+                            <ul>
+                                <li>Curated an Open-source repository with hands-on agentic AI projects utilizing industry-leading frameworks and APIs, garnering 37 stars and 18 forks from the developer community.</li>
+                                <li>Implemented autonomous agent examples demonstrating agent-centric workflows, multi-agent collaboration, and tool-use patterns using OpenAI, CrewAI, Claude, and LangGraph frameworks.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
