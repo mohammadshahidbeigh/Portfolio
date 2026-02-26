@@ -1133,6 +1133,14 @@ h2 {
     color: white;
 }
 
+.card-phone {
+    background: var(--color-yellow);
+}
+
+.card-website {
+    background: var(--color-secondary);
+}
+
 /* ============================
    FOOTER
    ============================ */
